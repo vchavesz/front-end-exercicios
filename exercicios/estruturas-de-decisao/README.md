@@ -1,8 +1,9 @@
 # Exercícios
 
 Faça os exercícios a seguir escrevendo código JavaScript a ser vinculado à sua página HTML com a tag `<script>`.
-- Utilize a função `window.prompt()` para capturar dados do usuário
+- Utilize a função `prompt()` para capturar dados do usuário
 - Não se preocupe em tratar casos em que o usuário irá inserir valores inválidos neste momento
+- A função `prompt()` irá sempre retornar valores do tipo `string`, você pode converter o tipo, caso precise de um outro tipo de dado (number, por exemplo) para garantir que suas verificações irão funcionar como esperado
 
 
 ## Essenciais

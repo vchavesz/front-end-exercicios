@@ -6,7 +6,7 @@ alert(40 + ' Alunos');
 
 let minhaVariavel; // Declaração de variável
 
-minhaVariavel = -10.5;
+minhaVariavel = -10.5; // Operador de atribuição
 
 alert(minhaVariavel);
 
@@ -15,7 +15,6 @@ let outraVariavel = 'Aprendendo JavaScript';
 alert(outraVariavel);
 
 // Comentário de linha única
-
 let nomeDoAluno = 'Alan';
 
 
