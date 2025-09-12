@@ -1,2 +1,4 @@
-# front-end-exercicios
-Modelo de repositório para realização de exercícios do curso de Desenvolvedor Front-end
+# Desenvolvedor Front-end
+**Exemplos e Exercícios**
+
+Repositório com exemplos de aula e exercícios de Desenvolvimento Front-end.
