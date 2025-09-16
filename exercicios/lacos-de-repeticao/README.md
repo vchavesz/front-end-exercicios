@@ -25,3 +25,5 @@ Os exercícios a seguir devem ser realizados utilizando `do...while`:
 ### For
 
 ## Complementares
+
+1. Escreva um programa que calcula a soma dos números de 0 até _n_, sendo _n_ um número positivo maior que 1 inserido pelo usuário;
