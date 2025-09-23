@@ -9,9 +9,7 @@ const subtracao = function(numA, numB) {
 }
 
 // Arrow Function
-const multiplicacao = (numA, numB) => {
-	return numA * numB;
-}
+const multiplicacao = (numA, numB) => numA * numB; // Não é necessário return pois é uma função de uma linha, sem chaves
 
 // Arrow Function
 const divisao = (numA, numB) => {
