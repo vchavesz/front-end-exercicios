@@ -2,69 +2,35 @@
 <html>
 <head>
     <title>Festa Americana</title>
-    <style>
-        body { 
-            font-family: Arial, sans-serif; 
-            padding: 20px;
-        }
-        
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
-        }
-        
-        input, button {
-            padding: 10px;
-            margin: 5px;
-            font-size: 16px;
-        }
-        
-        .item {
-            border: 1px solid #ccc;
-            padding: 15px;
-            margin: 10px 0;
-        }
-        
-        .disponivel {
-            background-color: #f0fff0;
-        }
-        
-        .reservado {
-            background-color: #fff8dc;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
+    <main class="container">
         <h1>🎉 Festa Americana</h1>
         
-        <div>
-            <input type="text" id="novo-item" placeholder="Digite um item (ex: Pizza)">
-            <button id="btn-adicionar">Adicionar Item</button>
-        </div>
-        
-        <div>
-            <input type="text" id="nome-pessoa" placeholder="Seu nome">
-        </div>
-        
-        <div id="contador">0 itens adicionados</div>
-        
-        <div id="lista-itens">
-            <!-- Itens aparecerão aqui -->
-        </div>
-        
-        <div id="mensagem" style="text-align: center; margin: 20px;">
-            Adicione alguns itens para começar!
-        </div>
-    </div>
+        <section class="adicao-de-itens container">
+            <label for="item">Item</label>
+            <input type="text" id="novo-item" name="item" placeholder="Digite um item (ex: Salgadinhos)">
+    
+            <label for="nome-pessoa">Nome</label>
+            <input type="text" id="nome-pessoa" name="nome-pessoa" placeholder="Nome da pessoa">
 
-    <script>
-        // SEU CÓDIGO AQUI
-        // Dica: comece selecionando os elementos
+            <button id="btn-adicionar">Adicionar Item</button>
+        </section>
         
-        // Exemplo:
-        // const inputItem = document.getElementById('novo-item');
-        // const inputNome = document.getElementById('nome-pessoa');
-    </script>
+        <section class="lista-de-itens container">
+            <p id="contador">0 itens adicionados</p>
+
+            <div id="lista-itens" class="lista itens">
+                <!-- Itens aparecerão aqui -->
+            </div>
+
+            <div id="mensagem">
+                Adicione alguns itens para começar!
+            </div>
+        </section>
+    </main>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
